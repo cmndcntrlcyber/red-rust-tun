@@ -1,0 +1,12 @@
+[package]
+name = "client_tls_windows"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-rustls = "0.23"
+rustls = "0.20"
+rustls-pemfile = "1.0"
+boringtun = "0.3"
+tun = "0.4"
